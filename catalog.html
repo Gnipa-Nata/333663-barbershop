@@ -15,7 +15,7 @@
 	        <li><a href="#">информация</a></li>
 	        <li><a href="#">новости</a></li>
 	        <li><a href="#">прайс-лист</a></li>
-	        <li><a class="activ" href="#">магазин</a></li>
+	        <li><a class="active" href="#">магазин</a></li>
 	        <li><a href="#">контакты</a></li>
 	      </ul>
 	    </nav>
@@ -38,11 +38,10 @@
 	    </section>  <!-- Конец меню -->
 
 	    <section class="content-middle"> <!-- Начало контента -->
-	      <section class="sidebar">	     <!-- Начало сайдбара -->
+	      <section class="sidebar-form"> <!-- Начало сайдбара -->
 
 	    	<div class="sidebar-maker">  <!-- Начало фильтра по производителю -->
 	    		<h2>производители</h2>
-	    		<form action="" method="post">
 	    		  <label>
 	    		    <input type="checkbox" name="maker" value="boc" checked>
 	    		    <span>baxter of california</span>
@@ -67,12 +66,10 @@
 	    		    <input type="checkbox" name="maker" value="american crew" checked>
 	    		    <span>american crew</span>
 	    		  </label>
-	    		</form>
 	    	</div>  <!-- Конец фильтра по производителю -->
 
 	    	<div class="sidebar-group-items"> <!-- Начало фильтра по группе товаров -->
 	    		<h2>группы товаров</h2>
-	    		<form action="" method="post">
 	    		  <label>
 	    		    <input type="radio" name="group-items" value="#">
 	    		    <span>бритвенные принадлежности</span>
@@ -85,13 +82,10 @@
 	    		    <input type="radio" name="group-items" value="#">
 	    		    <span>аксессуары</span>
 	    		  </label>
-	    		</form>
 	    	</div>  <!-- Конец фильтра по группе товаров -->
 
 	    	<div class="sidebar-btn"> <!-- Начало кнопки "Показать" -->
-	    		<form action="" method="post">
-	    		  <button>показать</button>
-	    		</form>
+	    		<button>показать</button>
 	    	</div>  <!-- Конец кнопки "Показать" -->
 	      </section> <!-- Конец сайдбара -->
 
@@ -175,8 +169,8 @@
 	    	<section class="catalog-bottom"> <!-- Начало кнопок меню -->
 	      	  <ul>
 	        	  <li><a class="catalog-btn" href="#">1</a></li>
-	        	  <li><a class="catalog-btn btn-activ" href="#">2</a></li>
-	        	  <li><a class="catalog-btn" href="#">3</a></li>
+	        	  <li><a class="catalog-btn btn-active" href="#">2</a></li>
+	        	  <li class="catalog-btn">3</li>
 	        	  <li><a class="catalog-btn" href="#">4</a></li>
 	      	  </ul>	    	    	
 	    	</section> <!-- Конец кнопок меню -->
