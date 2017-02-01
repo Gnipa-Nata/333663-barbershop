@@ -28,7 +28,7 @@
 	  </header>
 
 	  <div class="content">   <!-- Начало основной части -->
-	  <div class="container"> 
+	  <div class="container clearfix"> 
 	    <section class="content-top"> <!-- Начало меню -->
 	      <h1>Средства для ухода</h1>
 	      <nav class="breadcrumbs">
@@ -44,7 +44,10 @@
 	      <section class="sidebar-form"> <!-- Начало сайдбара -->
 
 	    	<div class="sidebar-maker">  <!-- Начало фильтра по производителю -->
+	    		<form action="" method="post">
+	    		<div class="maker">
 	    		<h2>производители</h2>
+	    		  <div class="makers">
 	    		  <label>
 	    		    <input type="checkbox" name="maker" value="boc" checked>
 	    		    <span>baxter of california</span>
@@ -69,10 +72,13 @@
 	    		    <input type="checkbox" name="maker" value="american crew" checked>
 	    		    <span>american crew</span>
 	    		  </label>
-	    	</div>  <!-- Конец фильтра по производителю -->
+	    		  </div>
+	    		</div>  <!-- Конец фильтра по производителю -->
+
 
 	    	<div class="sidebar-group-items"> <!-- Начало фильтра по группе товаров -->
 	    		<h2>группы товаров</h2>
+	    		<div class="group-items">
 	    		  <label>
 	    		    <input type="radio" name="group-items" value="#">
 	    		    <span>бритвенные принадлежности</span>
@@ -85,11 +91,13 @@
 	    		    <input type="radio" name="group-items" value="#">
 	    		    <span>аксессуары</span>
 	    		  </label>
+	    		</div>
 	    	</div>  <!-- Конец фильтра по группе товаров -->
 
 	    	<div class="sidebar-btn"> <!-- Начало кнопки "Показать" -->
 	    		<button>показать</button>
 	    	</div>  <!-- Конец кнопки "Показать" -->
+	    	</form>
 	      </section> <!-- Конец сайдбара -->
 
 	      <section class="content-catalog"> <!-- Начало каталога товаров + Кнопки меню страниц -->
@@ -171,10 +179,10 @@
 
 	    	<section class="catalog-bottom"> <!-- Начало пагинатора -->
 	      	  <ul>
-	        	  <li><a class="catalog-btn" href="#">1</a></li>
-	        	  <li><a class="catalog-btn btn-active" href="#">2</a></li>
-	        	  <li class="catalog-btn">3</li>
-	        	  <li><a class="catalog-btn" href="#">4</a></li>
+	        	  <li class="catalog-btn"><a href="#">1</a></li>
+	        	  <li class="catalog-btn btn-active">2</li>
+	        	  <li class="catalog-btn"><a href="#">3</a></li>
+	        	  <li class="catalog-btn"><a href="#">4</a></li>
 	      	  </ul>	    	    	
 	    	</section> <!-- Конец пагинатора -->
 
@@ -183,7 +191,7 @@
 	  </div>
 	  </div>  <!-- Конец основной части -->
 
-	  <footer class="main-footer">
+	  <footer class="main-footer clearfix">
 	    <div class="container">	  	
 	  	  <section class="footer-contacts">
 	  	  	Барбершоп «Бородинский»<br>

@@ -61,17 +61,19 @@ h2 {
 	margin-left: 150px;
 }
 
-.main-nav a {
+a {
 	text-decoration: none;
+}
+
+.main-nav a {
 	color: #ffffff;
 }
 
 .content {
-	margin-bottom: 60px;
-	background-color: black;
+	background-image: url(../img/fon.jpg);
 }
 
-.content:after {
+.clearfix:after {
 	content: "";
 	display: table;
 	clear: both;
@@ -84,21 +86,38 @@ h2 {
 
 .breadcrumbs {
 	background-color: blue;
+	margin-top: 20px;
 }
 
 .breadcrumbs li {
 	display: inline-block;
 	background-color: green;
+	margin-right: 15px;
 }
 
 .breadcrumbs li:before {
-	content: url(img/rhomb.png);
+	content: url(../img/rhomb.png);
+	margin-right: 15px;
+}
+
+.breadcrumbs li:first-child:before {
+	content: "";
+	margin-right: 0px;
 }
 
 .sidebar-form {
 	background-color: yellow;
 	float: left;
 	width: 220px;
+}
+
+.makers {
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+
+.group-items {
+	margin-top: 35px;
 }
 
 .content-catalog {
@@ -114,10 +133,17 @@ h2 {
 
 label {
 	display: block;
+	margin-bottom: 15px;
 }
 
 .sidebar-group-items {
 	background-color: salmon;
+}
+
+.sidebar-btn {
+	width: 110px;
+	height: 40px;
+	background-color: #000000;
 }
 
 .item {
@@ -141,9 +167,98 @@ label {
 	margin-top: 30px;
 }
 
+.catalog-btn {
+	width: 40px;
+	height: 30px;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.catalog-btn a {
+	color: #ffffff;
+}
+
+.gallery {
+	float: left;
+	width: 470px;
+	background-color: olivedrab;
+	font-size: 0;
+}
+
+.gallery-previews-item {
+	display: inline-block;
+	margin: 10px;
+}
+
+.gallery-previews-item:first-child {
+	margin-left: 0px;
+}
+
+.gallery-previews-item:last-child {
+	margin-right: 0px;
+}
+
+.description-wrapper {
+	float: right;
+	width: 400px;
+	background-color: coral;
+}
+
+.description-stock {
+	margin-right: 150px;
+}
+
+.description-text {
+	margin: 40px 0;
+}
+
+.item-price {
+	width: 185px;
+	margin-bottom: 70px;
+	font-size: 0;
+}
+
+.btn {
+	display: inline-block;
+	height: 30px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.price-btn {
+	width: 110px;
+	background-color: #e5e5e5;
+}
+
+.buy-btn {
+	width: 75px;
+	background-color: #000000;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.consist-listing {
+	margin-top: 40px;
+}
+
+.consist-listing li {
+	list-style: none;
+	padding-bottom: 15px;
+}
+
+.consist-listing li:before {
+	content: url(../img/rhomb.png);
+	padding-right: 10px;
+}
+
 .main-footer {
-	/*background-image: url(img/fon-footer.png);*/
+	background-image: url(../img/fon-footer.png);
 	padding-bottom: 35px;
+	padding-top: 60px;
 }
 
 .footer-contacts {
@@ -162,4 +277,8 @@ label {
 	float: right;
 	background-color: skyblue;
 	text-align: center;
+}
+
+.footer-contacts a {
+	text-decoration: underline;
 }
