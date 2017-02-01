@@ -8,25 +8,27 @@
 	<body>
 
 	  <header class="main-header">
-	    <a href="#">
-	      <img src="img/logo.png" width="110" height="24" alt="Логотип Barbershop">
-	    </a>
-	    <nav class="main-nav">
-	      <ul class="">
-	        <li><a href="#">информация</a></li>
-	        <li><a href="#">новости</a></li>
-	        <li><a href="#">прайс-лист</a></li>
-	        <li><a class="active" href="#">магазин</a></li>
-	        <li><a href="#">контакты</a></li>
-	      </ul>
-	    </nav>
-	    <div class="login">
-	      <a href="#">Вход</a>
+	    <div class="container">
+	      <nav class="main-nav">
+	        <div class="nav-logo">
+	          <a><img src="img/logo.png" width="110" height="24" alt="Логотип Barbershop"></a>
+	        </div>
+	        <ul class="nav-base">
+	          <li><a href="#">информация</a></li>
+	          <li><a href="#">новости</a></li>
+	          <li><a href="#">прайс-лист</a></li>
+	          <li><a class="active" href="#">магазин</a></li>
+	          <li><a href="#">контакты</a></li>
+	        </ul>
+	        <div class="login">
+	          <a href="#">Вход</a>
+	        </div>
+	      </nav>
 	    </div>
 	  </header>
 
-	  <div class="content"> <!-- Начало основной части -->
-
+	  <div class="content">   <!-- Начало основной части -->
+	  <div class="container"> 
 	    <section class="content-top"> <!-- Начало меню -->
 	      <h1>Средства для ухода</h1>
 	      <nav class="breadcrumbs">
@@ -96,7 +98,7 @@
 
 	    	  <article class="item">
 	    		<figure class="item-foto">
-	    		  <a href="#"><img src="img/catalog/item1.jpg" width="220" height="165" alt="Набор для путешествий BAXTER OF CALIFORNIA"></a>
+	    		  <a href="#"><img src="img/catalog/item1.jpg" width="215" height="165" alt="Набор для путешествий BAXTER OF CALIFORNIA"></a>
 	    		</figure>
 	    		<p><a href="#">Набор для путешествий<br>
 	    		&laquo;BAXTER OF CALIFORNIA&raquo;</a></p>
@@ -132,7 +134,7 @@
 
 	    	  <article class="item">
 	    	    <figure class="item-foto">
-	    	      <a href="#"><img src="img/catalog/item4.jpg" width="220" height="165" alt="Глина для укладки AMERICAN CREW"></a>
+	    	      <a href="#"><img src="img/catalog/item4.jpg" width="215" height="165" alt="Глина для укладки AMERICAN CREW"></a>
 	    		</figure>
 	    		<p><a href="#">Глина для укладки<br>
 	    		&laquo;AMERICAN CREW&raquo;</a></p>
@@ -167,20 +169,22 @@
 	    	  </article>
 	    	</section> <!-- Конец каталога товаров -->
 
-	    	<section class="catalog-bottom"> <!-- Начало кнопок меню -->
+	    	<section class="catalog-bottom"> <!-- Начало пагинатора -->
 	      	  <ul>
 	        	  <li><a class="catalog-btn" href="#">1</a></li>
 	        	  <li><a class="catalog-btn btn-active" href="#">2</a></li>
 	        	  <li class="catalog-btn">3</li>
 	        	  <li><a class="catalog-btn" href="#">4</a></li>
 	      	  </ul>	    	    	
-	    	</section> <!-- Конец кнопок меню -->
+	    	</section> <!-- Конец пагинатора -->
 
 	      </section> <!-- Конец каталога товаров + кнопок меню -->
 	    </section>  <!-- Конец контента -->
+	  </div>
 	  </div>  <!-- Конец основной части -->
 
-	  <footer class="main-footer">	  	
+	  <footer class="main-footer">
+	    <div class="container">	  	
 	  	  <section class="footer-contacts">
 	  	  	Барбершоп «Бородинский»<br>
             Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -193,12 +197,13 @@
             <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
             <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
             <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-        </section>
+          </section>
 
-        <section class="footer-copyright">
-          <p>Разработано:</p>
-          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-        </section>  	
+          <section class="footer-copyright">
+            <p>Разработано:</p>
+            <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+          </section>
+        </div>  	
 	  </footer>
 
 	</body>

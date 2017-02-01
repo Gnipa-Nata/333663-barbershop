@@ -4,6 +4,10 @@ body {
 	font-weight: bold;
 }
 
+* {
+	margin: 0; padding: 0;
+}
+
 h1 {
 	font-size: 30px;
 	line-height: 42px;
@@ -14,4 +18,148 @@ h2 {
 	font-size: 24px;
 	line-height: 30px;
 	color: #000000;
+}
+
+.main-header {
+	background-color: #000000;
+	height: 70px;
+	margin-bottom: 60px;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: yellowgreen;
+}
+
+.main-nav {
+	background-color: red;
+	padding-top: 25px;
+}
+
+.nav-logo {
+	display: inline-block;
+	background-color: yellow;
+	vertical-align: middle;
+	margin-left: 30px;
+}
+
+.nav-base {
+	display: inline-block;
+}
+
+.main-nav li {
+	display: inline-block;
+	background-color: blue;
+	margin-left: 40px;
+}
+
+.login {
+	display: inline-block;
+	background-color: green;
+	margin-left: 150px;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.content {
+	margin-bottom: 60px;
+	background-color: black;
+}
+
+.content:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.content-top {
+	background-color: red;
+	margin-bottom: 60px;
+}
+
+.breadcrumbs {
+	background-color: blue;
+}
+
+.breadcrumbs li {
+	display: inline-block;
+	background-color: green;
+}
+
+.breadcrumbs li:before {
+	content: url(img/rhomb.png);
+}
+
+.sidebar-form {
+	background-color: yellow;
+	float: left;
+	width: 220px;
+}
+
+.content-catalog {
+	background-color: red;
+	float: right;
+	width: 720px;
+	font-size: 0;
+}
+
+.sidebar-maker {
+	background-color: orange;
+}
+
+label {
+	display: block;
+}
+
+.sidebar-group-items {
+	background-color: salmon;
+}
+
+.item {
+	display: inline-block;
+	background-color: yellowgreen; 
+	margin: 10px;
+	margin-top: 0;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.catalog-bottom {
+	font-size: 14px;
+	line-height: 18px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+.catalog-bottom li {
+	display: inline-block;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-footer {
+	/*background-image: url(img/fon-footer.png);*/
+	padding-bottom: 35px;
+}
+
+.footer-contacts {
+	float: left;
+	background-color: skyblue;
+}
+
+.footer-social {
+	float: left;
+	background-color: skyblue;
+	text-align: center;
+	margin-left: 130px;
+}
+
+.footer-copyright {
+	float: right;
+	background-color: skyblue;
+	text-align: center;
 }
