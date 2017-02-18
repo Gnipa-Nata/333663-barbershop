@@ -515,12 +515,28 @@ body {
 	background-image: url("../img/social-vk.png");
 }
 
+.social-btn-vk:hover,
+.social-btn-vk:active {
+	background-color: #ffffff;
+	background-image: url("../img/social-vk-hover.png");
+}
+
 .social-btn-fb {
 	background-image: url("../img/social-fb.png");
 }
 
+.social-btn-fb:hover {
+	background-color: #ffffff;
+	background-image: url("../img/social-fb-hover.png");
+}
+
 .social-btn-inst {
 	background-image: url("../img/social-insta.png");
+}
+
+.social-btn-inst:hover {
+	background-color: #ffffff;
+	background-image: url("../img/social-insta-hover.png");
 }
 
 .footer-copyright {
