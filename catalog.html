@@ -3,10 +3,12 @@
 	<head>
 	  <meta charset="utf-8">
 	  <title>Каталог товаров</title>
+	  <link rel="stylesheet" type="text/css" href="css/normolize.css">
 	  <link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
-	<body>
 
+	<body>
+	  <div class="wrapper">
 	  <header class="main-header">
 	    <div class="container">
 	      <nav class="main-nav">
@@ -28,7 +30,8 @@
 	  </header>
 
 	  <div class="content">   <!-- Начало основной части -->
-	  <div class="container clearfix"> 
+	    <div class="container clearfix"> 
+
 	    <section class="content-top"> <!-- Начало меню -->
 	      <h1>Средства для ухода</h1>
 	      <nav class="breadcrumbs">
@@ -42,9 +45,9 @@
 
 	    <section class="content-middle"> <!-- Начало контента -->
 	      <section class="sidebar-form"> <!-- Начало сайдбара -->
-
+	      	<form action="" method="post">
 	    	<div class="sidebar-maker">  <!-- Начало фильтра по производителю -->
-	    		<form action="" method="post">
+	    		
 	    		<div class="maker">
 	    		<h2>производители</h2>
 	    		  <div class="makers">
@@ -98,6 +101,7 @@
 	    	<div class="sidebar-btn"> <!-- Начало кнопки "Показать" -->
 	    		<button>показать</button>
 	    	</div>  <!-- Конец кнопки "Показать" -->
+
 	    	</form>
 	      </section> <!-- Конец сайдбара -->
 
@@ -221,11 +225,11 @@
           </section>
 
           <section class="footer-copyright">
-            <p>Разработано:</p>
-            <a class="btn logo-html" href="https://htmlacademy.ru">HTML Academy</a>
+            <span>Разработано:</span>
+            <a class="btn logo-html" href="https://htmlacademy.ru">HTMLAcademy.ru</a>
           </section>
         </div>  	
 	  </footer>
-
+	  </div>
 	</body>
 </html>
